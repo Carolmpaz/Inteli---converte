@@ -1,0 +1,98 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0px, 15px, 0px, 15px;
+    margin-top: 50px;
+    padding: 0;
+    background-color: #2c243c;
+    color: #333;
+   
+    
+}
+
+/* Estilização do título */
+h1 {
+    font-size: 2.5em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #db494c;
+}
+
+/* Parágrafo de instruções */
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Estilização do contêiner do jogo */
+#game-container {
+    display: inline-block;
+    text-align: left;
+    background: #2c243c;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Números binários */
+
+.binary-number {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* Contêiner dos campos de entrada */
+.input-container {
+    margin: 15px 0;
+}
+
+/* Estilização do campo de entrada */
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+}
+
+/* Estilização do botão */
+button {
+    padding: 10px 20px;
+    margin: 15px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #db494c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #db494c;
+}
+
+/* Estilização do resultado */
+.result {
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #db494c;
+}
+
+.result.green {
+    color: #db494c;
+}
+
+.result.red {
+    color: #db494c; 
+}
+
+.itens{
+    vertical-align: middle;
+}
